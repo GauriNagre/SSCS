@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/driver"
+        android:layout_width="414dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="101dp"
+        android:text="@string/driver_login" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/seeee" />
+
+    <!--<Button-->
+        <!--android:id="@+id/customer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="6dp"-->
+        <!--android:layout_marginBottom="418dp"-->
+        <!--android:text="@string/i_m_a_customer" />-->
+
+</RelativeLayout>

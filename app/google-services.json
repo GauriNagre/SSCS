@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "291741573299",
+    "firebase_url": "https://truckpro-f3d30.firebaseio.com",
+    "project_id": "truckpro-f3d30",
+    "storage_bucket": "truckpro-f3d30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291741573299:android:f0cfcc50a29fdde0",
+        "android_client_info": {
+          "package_name": "com.example.truck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291741573299-gj3da5matrf79jvvl7o64o781kc3ht6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.truck",
+            "certificate_hash": "f92f8ad2e195c65177669fc398474f1e294c01ff"
+          }
+        },
+        {
+          "client_id": "291741573299-kqdk25i8orv0i9q5v29j0a0dumvo7j86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.truck",
+            "certificate_hash": "6b955869401d82ebe8da1f1f7b3a0880de9a1a6f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmwTMaHn7sHxyutPqtete6ykAxth2-MYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

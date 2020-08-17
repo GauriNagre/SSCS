@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverLoginActivity">
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="545dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="471dp"
+        android:hint="Password" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="415dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginBottom="38dp"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="110dp"
+        android:text="registration" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="62dp"
+        app:srcCompat="@drawable/seeee" />
+
+    <!--<Button-->
+        <!--android:id="@+id/available"-->
+        <!--android:layout_width="154dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="18dp"-->
+        <!--android:layout_marginBottom="78dp"-->
+        <!--android:text="Available" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/notavailable"-->
+        <!--android:layout_width="162dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="216dp"-->
+        <!--android:layout_marginBottom="80dp"-->
+        <!--android:text="NotAvailable" />-->
+
+
+</RelativeLayout>

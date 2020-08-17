@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Availableno">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/driver_available_or_notavailable"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/available"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginBottom="163dp"
+        android:text="@string/available" />
+
+    <Button
+        android:id="@+id/notavailable"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="93dp"
+        android:text="@string/notavailable" />
+
+    <Button
+        android:id="@+id/mapbutton"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/accept_request" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="415dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginBottom="172dp"
+        app:srcCompat="@drawable/seeee" />
+
+    <!--<Button-->
+        <!--android:id="@+id/but"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="But" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/latitude"-->
+        <!--android:layout_width="147dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="34dp"-->
+        <!--android:layout_marginBottom="70dp"-->
+        <!--android:text="@string/textview"-->
+        <!--android:textSize="12sp"-->
+        <!--tools:text="latitude" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/longitude"-->
+        <!--android:layout_width="147dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="224dp"-->
+        <!--android:layout_marginBottom="68dp"-->
+        <!--android:text="@string/textview"-->
+        <!--android:textSize="12sp"-->
+        <!--tools:text="longitude" />-->
+
+
+</RelativeLayout>

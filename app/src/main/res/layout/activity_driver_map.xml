@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_route" />
+
+    <Button
+        android:id="@+id/taskcompleted"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="598dp"
+        android:text="Task Completed" />
+
+    <!--<Button-->
+        <!--android:id="@+id/distance"-->
+        <!--android:layout_width="177dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="208dp"-->
+        <!--android:layout_marginBottom="612dp"-->
+        <!--android:text="Show Distance" />-->
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
